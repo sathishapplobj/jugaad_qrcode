@@ -1,0 +1,9 @@
+name: jugaadQrCode
+description: Generates Qr Code for jugaad App.
+core: 8.x
+type: module
+package: Custom
+
+# Information added by Drupal.org packaging script on 2020-07-19
+version: '8.x-2.0'
+project: 'jugaad_qr_code'

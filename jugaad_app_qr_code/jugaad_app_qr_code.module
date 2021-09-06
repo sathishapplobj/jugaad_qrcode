@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implement hook_theme().
+ */
+function jugaad_app_qr_code_theme($existing, $type, $theme, $path) {
+  return array(
+   'productqrcode' => array(
+            'variables' => array('title' => NULL, 'description' => NULL, 'response' => NULL),
+        )
+        );
+}
